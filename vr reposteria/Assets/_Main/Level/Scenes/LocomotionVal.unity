@@ -64568,7 +64568,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &462249997
 MeshRenderer:
@@ -74670,7 +74670,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &534073725
 MonoBehaviour:
@@ -74700,7 +74700,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.036666665
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 04caba5aa94402b47a4ab613dffa876e, type: 2}
   m_BuildHeightMesh: 0
@@ -74717,7 +74717,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 537132662}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &534622614
 GameObject:
@@ -74945,7 +74945,6 @@ Transform:
   m_Children:
   - {fileID: 266738663}
   - {fileID: 300491818}
-  - {fileID: 534073726}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &537140660
@@ -94265,7 +94264,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 668786345}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 668786342}
   _maxGrabPoints: -1
@@ -109669,7 +109668,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 787447009}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 787447013}
   _maxGrabPoints: -1
@@ -109731,7 +109730,7 @@ Transform:
   m_GameObject: {fileID: 787447008}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.492, y: 1.126, z: 0.777}
+  m_LocalPosition: {x: -0.492, y: 1.1249, z: 0.777}
   m_LocalScale: {x: 0.099999994, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -157326,7 +157325,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 1176852422}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1176852421}
   _maxGrabPoints: -1
@@ -160152,7 +160151,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 1198797447}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1198797444}
   _maxGrabPoints: -1
@@ -179836,7 +179835,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 1346977832}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1346977831}
   _maxGrabPoints: -1
@@ -185047,7 +185046,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 1379097292}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1379097289}
   _maxGrabPoints: -1
@@ -195577,7 +195576,7 @@ MonoBehaviour:
   _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 1453453723}
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1453453720}
   _maxGrabPoints: -1
@@ -267709,7 +267708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pivotTransform: {fileID: 1978871779}
-  _rotationAxis: 0
+  _rotationAxis: 2
   _constraints:
     MinAngle:
       Constrain: 1
@@ -298379,6 +298378,7 @@ MeshCollider:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 534073726}
   - {fileID: 225952086}
   - {fileID: 648280402}
   - {fileID: 774416623}
